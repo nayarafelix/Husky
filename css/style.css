@@ -1,0 +1,154 @@
+a {text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+body {
+  font-family: 'Roboto', arial;
+  background-color: #fff;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  background: url(../img/logo.jpg) center center/68px no-repeat;
+  font-size: 0;
+}
+.btn-menu {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 1.5em;
+  border-radius: 56px;
+  float: right;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  margin-top: 4%;
+  background: linear-gradient(to right, #16466a, #81929c);
+}
+.menu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(22, 70, 106, 0.9);
+  display: none;
+}
+.btn-close {
+  font-size: 2.1em;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+  margin-right: 8%;
+  margin-top: 9%;
+}
+.menu ul {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.menu ul li {padding: 1.5%;}
+
+.menu ul li a {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1.5% 3%;
+}
+figure {
+  width: 100%;
+  float: left;
+  text-align: center;
+  background: url(../img/dog-00.jpg) no-repeat fixed;
+  background-size: cover;
+}
+figcaption {width: 100%;}
+figcaption h2 {
+  font-size: 2.5em;
+  color: #2c8cc1;
+  font-weight: 700;
+  margin: 10% 2%;
+  text-transform: uppercase;
+}
+figcaption p {
+  font-size: 1.2em;
+  color: #16466a;
+  font-weight: 300;
+  margin-bottom: 10%;
+  font-family: arial;
+}
+.buttons {
+  max-width: 100%;
+  margin: 2% 3%;
+}
+.btn {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #333;
+  padding: 5%;
+  margin: 5% 0;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+.btn-cadastro {
+  background-color: #81929c;
+}
+.btn-sobre {
+  background-color: #16466a;
+}
+.buttons i {float: right;}
+
+/* SERVIÇOS */
+.servicos {
+  max-width: 100%;
+  float: left;
+  padding: 3% 4%;
+  background: #e3e4e6;
+  border-radius: 7px;
+  margin: 3% 2%;
+}
+.servicos img {border-radius: 7px 7px 0 0;}
+.servicos .texto {padding: 7%}
+.servicos .texto h4 {
+  color: #16466a;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.servicos p {
+  color: #666;
+  line-height: 22px;
+  font-style: italic;
+  text-align: justify;
+}
+/* FOOTER */
+footer {
+  padding: 3% 4%;
+  width: 100%;
+  background-color: #16466a;
+  text-align: center;
+  float: left;
+}
+footer .social-icones a {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0 7%;
+  font-size: 1.5em;
+}
+footer .social-icones a:hover {
+  color: rgba(255, 255, 255, 1);
+}
