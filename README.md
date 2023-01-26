@@ -1,2 +1,4 @@
 # Husky
-Site com Mobile First construído durante as aulas de Responsive Web Design - FIAP
+Site com Mobile First.
+
+Construído durante as aulas de Responsive Web Design do curso Sistemas para Internet na faculdade FIAP.
